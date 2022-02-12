@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('./fonts/icomoon.eot?tomleg');
+    src: url('./fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+        url('./fonts/icomoon.ttf?tomleg') format('truetype'),
+        url('./fonts/icomoon.woff?tomleg') format('woff'),
+        url('./fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+button,
+input {
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    border: 0;
+    outline: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.page {
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+.app .title h4 {
+    text-align: center;
+    color: #373858;
+    margin-top: 80px;
+    /* font-size: 20px; */
+}
+
+
+.app .form table {
+    width: 1200px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.app .form table tr th {
+    color: #555558;
+    height: 40px;
+    border: 1px solid rgb(224, 223, 223);
+}
+
+.app .form table tr td:nth-child(odd) {
+    position: relative;
+    width: 400px;
+    height: 70px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #555558;
+    border: 1px solid rgb(224, 223, 223);
+}
+
+
+.app .form table tr td:nth-child(odd) img {
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    width: 40px;
+}
+
+.app .form table tr td:nth-child(even) {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    padding: 20px;
+    color: #373858;
+    background-color: #FFFFFF;
+    border: 1px solid rgb(224, 223, 223);
+}

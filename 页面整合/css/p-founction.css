@@ -1,0 +1,116 @@
+.cloudservices .title h4 {
+    text-align: center;
+    color: #373858;
+    margin-top: 30px;
+}
+
+
+.cloudservices .form table {
+    width: 1200px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.cloudservices .form table tr,
+th {
+    border: 1px solid rgb(122, 122, 122);
+}
+
+.cloudservices .form table td span {
+    color: #2B72F6;
+}
+
+.cloudservices .form table tr td:nth-child(odd) {
+    position: relative;
+    width: 200px;
+    height: 70px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #373858;
+    background-image: url(../img2/Rectangle\ 40433.png);
+}
+
+
+.cloudservices .form table tr td:nth-child(odd) img {
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    width: 40px;
+}
+
+.cloudservices .form table tr td:nth-child(even) {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    padding: 20px;
+    color: #373858;
+    background-color: #FFFFFF;
+}
+
+.aa {
+    overflow: hidden;
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.aa .title h4 {
+    margin-top: 30px;
+    text-align: center;
+    color: #373858;
+}
+
+.aa .form {
+    width: 1200px;
+}
+
+.aa .form table {
+    text-align: center;
+    width: 100%;
+    margin: 30px auto;
+
+}
+
+.aa .form table tr,
+td {
+    border: 1px solid rgb(231, 231, 231);
+}
+
+.aa .form table th {
+    border: 0;
+    font-size: 14px;
+    color: #FFFFFF;
+    height: 35px;
+}
+
+.aa .form table td {
+    color: #373858;
+    font-size: 14px;
+    border: 1px solid #A1B0CF;
+    padding: 10px;
+}
+
+.aa .form table tr td:nth-child(3) {
+    text-align: left;
+    line-height: 22px;
+    background-image: url(../img1/tr.png);
+}
+
+.aa .form table tr td:nth-child(2) {
+    text-align: center;
+    width: 400px;
+    background-image: url(../img1/tr2.png);
+}
+
+.aa .form table tr td:nth-child(1) {
+    width: 300px;
+    background-image: url(../img1/tr1.png);
+}
+
+.aa .form table .bg {
+    position: relative;
+    background: repeating-linear-gradient(to left, #2B72F6, #b1cbfa);
+}
+
+.aa .form table .bg .bg1 {
+    background-image: url(../img1/image\ 62.png);
+}

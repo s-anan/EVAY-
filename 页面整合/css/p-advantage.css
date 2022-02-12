@@ -1,0 +1,248 @@
+.prod {
+    width: 100%;
+    height: 400px;
+    background-image: url(../img1/side-bg\ 2.png);
+}
+
+.prod .classify {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.prod .classify .GPS {
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: #232D3C;
+}
+
+.prod .classify .GPS img {
+    width: 18px;
+}
+
+.prod .classify .fo h4 {
+    text-align: center;
+    color: #373858;
+}
+
+.prod .classify .lie ul {
+    width: 1200px;
+    margin-top: 50px;
+    left: 50%;
+
+}
+
+.prod .classify .lie ul li {
+    float: left;
+    width: 285px;
+    height: 180px;
+    margin-right: 10px;
+    background-image: url(../img1/bgbs.png);
+
+}
+
+.prod .classify .lie ul li img {
+    width: 100px;
+    margin-left: 100px;
+}
+
+.prod .classify .lie ul h5 {
+    color: #373858;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.prod .classify .lie ul p {
+    font-size: 14px;
+    padding: 10px;
+    color: #626D82;
+    line-height: 20px;
+    margin-top: 5px;
+
+}
+
+
+
+.prod-t {
+    overflow: hidden;
+    width: 100%;
+    background-image: url(../img2/side-bg\ 3.png);
+}
+
+.prod-t .classify {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.prod-t .classify .fo h4 {
+    text-align: center;
+    color: #373858;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.prod-t .classify .lie ul {
+    overflow: hidden;
+    position: relative;
+    width: 1200px;
+    left: 50%;
+    margin-left: -600px;
+    margin-top: 20px;
+}
+
+.prod-t .classify .lie ul li {
+    position: relative;
+    float: left;
+    width: 380px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.prod-t .classify .lie ul li img {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 45px;
+}
+
+.prod-t .classify .lie ul h5 {
+    color: #373858;
+}
+
+.prod-t .classify .lie ul h5 {
+    margin-left: 80px;
+    margin-bottom: 5px;
+}
+
+.prod-t .classify .lie ul p {
+    margin-left: 80px;
+    font-size: 14px;
+    color: #626D82;
+    line-height: 20px;
+}
+
+.prod-t .classify .lie ul .w {
+    height: 200px;
+}
+
+
+
+.prod-f {
+    width: 100%;
+    background-image: url(../img2/side-bg\ 3.png);
+}
+
+.prod-f .classify {
+    overflow: hidden;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.prod-f .classify .GPS {
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: #232D3C;
+}
+
+.prod-f .classify .GPS img {
+    width: 18px;
+}
+
+.prod-f .classify .fo h4 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #373858;
+}
+
+
+.prod-f .classify .lie ul {
+    overflow: hidden;
+    position: relative;
+    width: 1200px;
+    left: 50%;
+    margin-left: -600px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.prod-f .classify .lie ul li {
+    position: relative;
+    float: left;
+    width: 390px;
+    height: 130px;
+    margin-top: 13px;
+    margin-right: 10px;
+    background-image: url(../img2/Rectangle\ 40418.png);
+}
+
+.prod-f .classify .lie ul li img {
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    width: 45px;
+}
+
+.prod-f .classify .lie ul h5 {
+    margin-left: 70px;
+    margin-top: 20px;
+    color: #373858;
+}
+
+.prod-f .classify .lie ul p {
+    margin-top: 10px;
+    margin-left: 70px;
+    font-size: 14px;
+    width: 260px;
+    color: #626D82;
+    line-height: 20px;
+
+}
+
+.prod-f .classify .lie2 ul {
+    position: relative;
+    margin-top: 20px;
+    width: 1200px;
+}
+
+.prod-f .classify .lie2 ul li {
+    position: relative;
+    float: left;
+    width: 280px;
+    height: 120px;
+    margin-top: 13px;
+    margin-right: 20px;
+    background-image: url(../img2/Rectangle\ 40418.png);
+}
+
+.prod-f .classify .lie2 ul li img {
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    width: 45px;
+}
+
+.prod-f .classify .lie2 ul h5 {
+    color: #373858;
+}
+
+.prod-f .classify .lie2 ul h5 {
+    position: absolute;
+    top: 20px;
+    left: 65px;
+}
+
+.prod-f .classify .lie2 ul p {
+    position: absolute;
+    top: 45px;
+    left: 65px;
+    font-size: 5px;
+    width: 170px;
+    color: #626D82;
+    line-height: 20px;
+
+}

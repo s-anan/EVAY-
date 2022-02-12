@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/banner.css">
+    <link rel="stylesheet" href="../css/p-advantage.css">
+    <link rel="stylesheet" href="../css/p-founction.css">
+    <link rel="stylesheet" href="../css/help.css">
+    <title>IP</title>
+</head>
+
+<body>
+    <div class="banner">
+        <div class="pic">
+            <img src="../img2/banner.png" alt="">
+            <h2>公网IP</h2>
+            <p>
+                山河超级计算平台 为您提供独立的公网 IP 资源，包括公网IP地址及公网出口带宽服务。公网 IPv4 地址与您的账户而非特定的资源关联，您可以将申请到的 IPv4
+                地址与任意云服务器（包括私有网络内的云服务器）、路由器、负载均衡器绑定，并随时可以解绑或再分配到其他资源上。
+            </p>
+            <ul>
+                <li><a href="#prod1">产品优势</a></li>
+                <li><a href="#prod2">产品功能</a></li>
+                <li><a href="#prod4">应用场景</a></li>
+                <li><a href="#prod3">帮助与文档</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="prod-t">
+        <div class="classify">
+            <div class="fo" id="prod1">
+                <h4>产品优势</h4>
+            </div>
+            <div class="lie">
+                <ul>
+                    <li>
+                        <img src="../img2/Frame.png" alt="">
+                        <div class="detail">
+                            <h5>性能卓越</h5>
+                            <p>采用网状架构，虚拟机之问的网络通讯采用点对点直连.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../img2/Frame (1).png" alt="">
+                        <div class="detail">
+                            <h5>标准兼容</h5>
+                            <p>交付的功能和组件完全标准、通用和兼容，在可操控性方面类似传统物理设备的管理。
+                            </p>
+                        </div>
+                    </li>
+                    <li class="w">
+                        <img src="../img2/Frame (2).png" alt="">
+                        <div class="detail">
+                            <h5>轻松构建混合云</h5>
+                            <p class="w">vPC内网互通，通过高速通道可以实现不同区域、不同用户的VPC内网互联，满足用户网络在山河上的互联
+                                混合云架构，通过专线/八VPN/GRE/IPSec等连接方式实现云上VPC与传统IDC的互联，经松构建混合云。
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../img2/Frame (3).png" alt="">
+                        <div class="detail">
+                            <h5>安全可靠</h5>
+                            <p>不同VPC间保证100%二层隔离，支持对任意主机加载动态IP，配置防火墙和负载均衡规则。
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../img2/Frame (4).png" alt="">
+                        <div class="detail">
+                            <h5>超大规模部署</h5>
+                            <p>单个VPC网络可管理60,000+台虚拟设备，支持各种复杂的网络架构，适应公有云和私有云的不同部者需求。
+                            </p>
+                        </div>
+                    </li>
+                    <li class="w">
+                        <img src="../img2/Frame (5).png" alt="">
+                        <div class="detail">
+                            <h5>跨可用区互联</h5>
+                            <p>由多个可用区(Availability
+                                Zone，简称AZ)组成的区域(Region)中创建的VPC，默认跨可用区高速互联，该VPC中的VxNet支持选用多可用区部署(Multi-AZdeployment，简称MZ)模式，则不同可用区中的资源将同屈—个子网，且其VIP
+                                (Virtual lP）能跨可用区漂移，有助于多可用区部署的数据库集群主从切换和读写分离
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="cloudservices">
+        <div class="title" id="prod2">
+            <h4>产品功能</h4>
+        </div>
+        <div class="form">
+            <table border="0" cellspacing="0">
+                <tr>
+                    <td>路由推送</td>
+                    <td>为路由器内的主机指定路由，包括主机的默认路由和静态路由规则。
+                    </td>
+                </tr>
+                <tr>
+                    <td>DNS配置</td>
+                    <td>通过 DNS配置，为私有网络中的资源绑定域名，每个域名可以同时指定多个私网IP。
+                    </td>
+                </tr>
+                <tr>
+                    <td>端口转发</td>
+                    <td>添加端口转发规则，允许来自Internet或者基础网络(vxnet-O)对私有网络内部服务的访问。
+                    </td>
+                </tr>
+                <tr>
+                    <td>DHCP服务</td>
+                    <td>DHCP服务为私有网络提供IP地址分配，分配的地址都是固定地址，即一个主机在其生命周期内获得的地址是保持不变的。
+                    </td>
+                </tr>
+                <tr>
+                    <td>内网域名别名</td>
+                    <td>针对VPC网络的默认内网域名，自定义一个内网域名别名。内网域名别名具有更好的可读性，同时可以作为内网服务的统一域名来访问。
+                    </td>
+                </tr>
+                <tr>
+                    <td>管理路由器</td>
+                    <td>VPC网络可以支持VPN/隧道/DNS/端口转发等管理功能，以及这些管理流量的转发和路由。VPC网络内的主机可以绑定自己的同一区域(Region)下任意公网IP，设置专属的防火墙，且这些IP、防火墙与管理路由器之间没有隶属关系，
+                    </td>
+                </tr>
+                <tr>
+                    <td>边界路由器</td>
+                    <td>边界路由器可用于高速连通同一VPC下的物理主机网络和云服务器网络，也可以用于高速连通不同的VPC，通过内网路由策略，可实现流星经边界路由器转发到达指定目标网络，例如，通过边界路由器走专钱到达用户数据中心，从而提高网络性能及稳定性。
+                    </td>
+                </tr>
+                <tr>
+                    <td>隧道及VPN</td>
+                    <td>通过建立隧道及VPN，可以将多个不同地域的局域网连接在一起，形成兼顾公有私有的混合云计算环境，助您有效管理多地域的数据中心。
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="app">
+        <div class="title" id="prod4">
+            <h4>场景应用</h4>
+        </div>
+        <div class="form">
+            <table border="0" cellspacing="0">
+                <tr>
+                    <th>应用场景</th>
+                    <th>场景说明</th>
+                </tr>
+                <tr>
+                    <td>安全网络</td>
+                    <td>通过VPC网络构建起具有严格安全访问控制的网络，同时兼顾核心数据的安全隔离和来自公网访问的有效接入。用户可以将处理核心数据和业务的核心服务器或数据库系统部署在公网无法访问的子网中，而将面向公网访问的web服务器部署于另一个子网环境中，并将该子网设置与公网连接。在VPC网络中，用户可以通过子网间的访问控制来实现对核心数据和业务服务器的访问控制，在确保核心数据安全可控的同时满足公网的访问需求。
+                    </td>
+                </tr>
+                <tr>
+                    <td>混合云网络</td>
+                    <td>通过VPC网络提供的隧道或VPN服务，建立一套安全高效的网络连接。在VPC中部署Web应用，通过分布式防火墙获得额外的隐私保护和安全性。用户可以创建防火墙规则，使Web应用响应HTTP/HTTPS等请求的同时拒绝访问Internet，以此巩固网站的安全保护，从而实现部署于公有云上的应用与部署在自有数据中心的业务之间的互联互通，构建混合云的架构。
+                    </td>
+                </tr>
+                <tr>
+                    <td>托管网站</td>
+                    <td>通过VPC网络提供的目的地址NAT功能，实现无EIP的安全访问互联网。
+                    </td>
+                </tr>
+                <tr>
+                    <td>托管应用</td>
+                    <td>在VPC内创建不同的Vxnet.</td>
+                </tr>
+                <tr>
+                    <td>应用上云</td>
+                    <td>通过VPC网络提供的隧道/VPN/专线服务，方便将企业应用部署到云中。</td>
+                </tr>
+                <tr>
+                    <td>灾难备份及同城多活</td>
+                    <td>通过区域(Region）级VPC的构建，在无需隧道的情况下保证同城业务系统在不同可用区中因主机故障、机房中断、自然灾害等情况下仍可持续运行，实现业务系统零中断;非区域级可用区之间，则通过VPC网络提供的隧道/VPN/专线服务，方便构建灾备环境。
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="help" id="prod3">
+        <div class="h-p">
+            <div class="hhp">
+                <img src="../img1/image 10.png" alt="">
+                <div class="title2">
+                    <h4>帮助与文档</h4>
+                </div>
+                <div class="detail2">
+                    <ul>
+                        <li class="tar"><img src="../img1/bz1.png" alt=""><a
+                                href="https://docsv3.shanhe.com/network/eip/intro/introduction/" target="_blank">
+                                <p>产品简介</p>
+                                <span>VPC简介</span>
+                            </a></li>
+                        <li class="bb"><a href="https://docsv3.shanhe.com/network/eip/billing/price/" target="_blank">
+                                <img src="../img1/bz2.png" alt="">
+                                <p>计费指南</p>
+                                <span>点击产品VPC计费指南</span>
+                            </a></li>
+                        <li class="bb">
+                            <a href="https://docsv3.shanhe.com/network/eip/quickstart/ipv6_quick_start/"
+                                target="_blank">
+                                <img src="../img1/bz3.png" alt="">
+                                <p>HPC快速入门</p>
+                                <span>点击产品VPC快速入门</span>
+                            </a></li>
+                        <li class="bb"><a href="##" target="_blank"> <img src="../img1/bz4.png" alt="">
+                                <p>HPC用户指南</p>
+                                <span>点击产品VPC操作指南</span>
+                            </a></li>
+                        <li class="bb"><a href="##" target="_blank">
+                                <img src="../img1/bz5.png" alt="">
+                                <p>最佳实践</p>
+                                <span>点击产品VPC最佳实践</span>
+                            </a></li>
+                        <li class="bb"><a href="https://docsv3.shanhe.com/network/eip/faq/faq/" target="_blank"> <img
+                                    src="../img1/bz6.png" alt="">
+                                <p>常见问题</p>
+                                <span>点击产品VPC常见问题</span>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

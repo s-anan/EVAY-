@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/banner.css">
+    <link rel="stylesheet" href="../css/p-advantage.css">
+    <link rel="stylesheet" href="../css/p-founction.css">
+    <link rel="stylesheet" href="../css/help.css">
+    <title>ELK</title>
+</head>
+
+<body>
+    <div class="banner">
+        <div class="pic">
+            <img src="../img1/banner.png" alt="">
+            <h2>ELK服务</h2>
+            <p>
+                ELK为用户提供实时日志处理、全文搜索和数据分析等基础能力
+            </p>
+            <ul>
+                <li><a href="#prod1">产品优势</a></li>
+                <li><a href="#prod2">产品功能</a></li>
+                <li><a href="#prod4">应用场景</a></li>
+                <li><a href="#prod3">帮助与文档</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="prod-f">
+        <div class="classify">
+            <div class="fo" id="prod1">
+                <h4>产品优势</h4>
+            </div>
+            <div class="lie">
+                <ul>
+                    <li>
+                        <img src="../img1/cp1.png" alt="">
+                        <div class="detail">
+                            <h5>安全可靠</h5>
+                            <p>
+                                运行在受管私有网络中，100%二层网络隔离，确保用户的数据安全。
+                            </p>
+                        </div>
+                    </li>
+
+
+                    <li>
+                        <img src="../img1/cp2.png" alt="">
+                        <div class="detail">
+                            <h5>一键部署</h5>
+                            <p>
+                                ELK组件封装成—体化交付，是解决方案级的云应用，可一键部苦，只需定义节点数量及相关资源即可完成配置。
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <img src="../img1/image 67.png" alt="">
+                        <div class="detail">
+                            <h5>弹性伸缩</h5>
+                            <p>
+                                支持按需横向调整集群节点规模,且业务不中断;支持纵向调整集群单节点计算和存储能力，包括节点的CPU、内存和埋c
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="cloudservices">
+        <div class="title" id="prod2">
+            <h4>产品功能</h4>
+        </div>
+        <div class="form">
+            <table border="0" cellspacing="0">
+                <tr>
+                    <td>无缝对接对象存储</td>
+                    <td>Elasticsearch提供一个实时分布式搜索和分析引擎，Kibana 为Elasticsearch 提供强大的可视化管理界面，Logstash 为用户提供数据采集、转换、优化和输出的能力。
+                        .Logstash集成了QingCloud对象存储的 logstash input/ouput插件，方便从 QingStor""对象存储通过Logstash-input-qingstor插件
+                        输入数据到Elasticsearch或者通过Logstash-output-qingstor插件将输入到 logstash的数据导出到QingCloud 对象存储;
+                        集成了官方S3 Repository 插件，可通过标准S3接口与QIngStorTM”对象存储集成，以便生成snapshot并将其存储到到对象存储中，并
+                        可以在必要时从中恢复。
+                    </td>
+                </tr>
+                <tr>
+                    <td>内置插件</td>
+                    <td>为Elasticsearch提供了更强大的分词功能支持，集成了lK Analysis 中文分词插件，并为该插件提供了结巴分词的词本和K自带的搜狗词本,同时还支持用户上传自定义词典。
+                    </td>
+                </tr>
+                <tr>
+                    <td>故障转移</td>
+                    <td>Kibana集成Nginx，提供Elasticsearch节点失效时的故障转移能力。
+                    </td>
+                </tr>
+                <tr>
+                    <td>监控和告警</td>
+                    <td>提供详细的监控信息，包括每个节点的资源监控，如CPU使用率、内存使用率，以及Elasticsearch
+                        、Kibana和Logstash服务监控等;支持对ELK节点主机CPU、主机内存使用率等创建监控告警策略，并通过短信或邮件的方式通知用户.
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="app">
+        <div class="title" id="prod4">
+            <h4>场景应用</h4>
+        </div>
+        <div class="form">
+            <table border="0" cellspacing="0">
+                <tr>
+                    <th>应用场景</th>
+                    <th>场景说明</th>
+                </tr>
+                <tr>
+                    <td>大数据运维平台
+                    </td>
+                    <td>可作为大数据平台的运维方案。提供数据采集．实时分析、全文检索等功能，不仅可以提高诊断的效率，而且可以进行系统监测、网络安全监测、事件管理、bug '发现等。
+                    </td>
+                </tr>
+                <tr>
+                    <td>实时日志分析平台</td>
+                    <td>可用于实时日志分析处理平台。通过Logstash提供的数据采集、转换、优化和输出能力，Kibana提供的强大可视化管理界面，以及Elasticsearch提供的实时分布式搜索和分析引擎，对日志信息进行实时分析、了解业务情况以及用户行为。
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="help">
+        <div class="h-pic">
+            <img src="../img1/image 10.png" alt="">
+            <div class="dom" id="prod3">
+                <h4>帮助与文档</h4>
+            </div>
+            <div class="h-o">
+                <ul>
+                    <li>
+                        <a href="##">
+                            <img src="../img1/bz4.png" alt="">
+                            <p>操作指南</p>
+                            <span>操作指南</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

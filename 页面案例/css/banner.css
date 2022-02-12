@@ -1,0 +1,40 @@
+.banner {
+    position: relative;
+    width: 100%;
+}
+
+.banner .pic img {
+    width: 100%;
+}
+
+.banner .GPS {
+    position: absolute;
+    top: 52px;
+    left: 50%;
+    margin-left: -600px;
+    font-size: 14px;
+    width: 1200px;
+}
+
+.banner .text {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    margin-left: -600px;
+    width: 1200px;
+}
+
+.banner .text h4 {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #373858;
+}
+
+.banner .text p {
+    margin-top: 20px;
+    line-height: 22px;
+    width: 600px;
+    font-size: 14px;
+    color: #626D82;
+}

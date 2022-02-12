@@ -1,0 +1,25 @@
+.document {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.document ul {
+    overflow: hidden;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.document ul li {
+    text-indent: 2em;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 5px;
+    padding: 10px;
+    color: #626D82;
+    text-align: left;
+}
+
+.document ul li img {
+    width: 950px;
+
+}

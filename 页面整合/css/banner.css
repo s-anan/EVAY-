@@ -1,0 +1,56 @@
+.banner {
+    position: relative;
+    width: 100%;
+}
+
+.banner .pic img {
+    position: relative;
+    width: 100%;
+}
+
+.banner .pic ul {
+    position: absolute;
+    top: 82%;
+    left: 42%;
+    display: flex;
+    justify-content: center;
+}
+
+.banner .pic ul li {
+    padding: 10px;
+    line-height: 12px;
+    border: 1px solid transparent;
+}
+
+.banner .pic ul li a {
+    color: #F7F9FA;
+    font-size: 14px;
+}
+
+.banner .pic ul li:hover {
+    border: 1px solid beige;
+    background-color: rgb(158, 157, 157);
+    border-radius: 20px;
+}
+
+
+.banner .pic h2 {
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    margin-left: -600px;
+    width: 1200px;
+    color: #FFFFFF;
+}
+
+.banner .pic p {
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    margin-left: -600px;
+    width: 500px;
+    line-height: 24px;
+    color: #FFFFFF;
+    font-size: 14px;
+
+}
